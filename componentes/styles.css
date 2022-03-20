@@ -18,6 +18,10 @@ footer{
 .lateral{
     height: 250px;
 }
+.row{
+    width: 95%;
+}
+
 .lateral > div{
     height: calc(250px/3);
 }
