@@ -26,7 +26,7 @@ footer{
     height: calc(250px/3);
 }
 .index{
-    z-index:1000000;
+    z-index:999999;
 }
 
     .dropdown-menu[data-bs-popper] {
@@ -34,9 +34,14 @@ footer{
         left: -1.50rem;
         margin-top: .125rem;
     }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     #menu{
         height: auto;
     }
+
 }
+.modal-z{
+    z-index: 1000000;
+}
+
 
